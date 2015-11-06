@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.9.3 -mcpu=cortex-m4 -mthumb -g2 -Map=Test.map -O0 --gc-sections -LC:/Users/D203C-01/CoIDE/workspace/STM32F429ZI_Template -TC:/Users/D203C-01/CoIDE/workspace/STM32F429ZI_Template/stm32f429zi_flash.ld -g">
+      <target file="Test.elf" lastModified="150dc162ea9">
+         <source file="..\obj\system_stm32f4xx.o" lastModified="150dc162bd6"/>
+         <source file="..\obj\main.o" lastModified="150dc1629a0"/>
+         <source file="..\obj\Rng.o" lastModified="150dc162c59"/>
+         <source file="..\obj\stm32f4xx_hal_cortex.o" lastModified="150dc162b55"/>
+         <source file="..\obj\startup_stm32f429xx.o" lastModified="150dc1629c1"/>
+         <source file="..\obj\stm32f4xx_hal_rcc.o" lastModified="150dc162a9f"/>
+      </target>
+   </processor>
+</history>
