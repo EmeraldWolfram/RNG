@@ -7,7 +7,7 @@
       <source file="..\..\..\..\stm32cubef4\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h" lastModified="14c0ebfff30">
          <include file="..\..\..\..\stm32cubef4\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\app\Rng.c" lastModified="150ffe06f2b">
+      <source file="..\..\..\app\Rng.c" lastModified="15100355885">
          <include file="..\..\..\app\Rng.h"/>
       </source>
       <source file="..\..\..\..\stm32cubef4\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h" lastModified="14c0ebfff30">
@@ -259,6 +259,9 @@
       </source>
       <source file="..\..\..\..\stm32cubef4\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h" lastModified="14c0ebff760">
          <include file="..\..\..\..\stm32cubef4\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\app\Rcc.c" lastModified="15100383e8f">
+         <include file="..\..\..\app\Rcc.h"/>
       </source>
       <source file="..\..\..\..\stm32cubef4\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_fsmc.h" lastModified="14c0ebfff30">
          <include file="..\..\..\..\stm32cubef4\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h"/>

@@ -1,8 +1,8 @@
 #include "Rng.h"
 
 void enableRNG(){
-	rngUnresetEnableClock();
-	RNG_reg->RNG_CR |= (1 << 2);
+	RNG_reg->RNG_CR |= (1 << 2);	//Enable Generation
+	RNG_reg->RNG_CR |= (1 << 3);	//Enable Interrupt
 }
 
 int getRandomNumber(){
