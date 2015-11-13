@@ -2,7 +2,7 @@
 #define	__Rng_H__
 
 #include <stdint.h>
-#include "stm32f4xx_hal_rcc.h"
+#include "Rcc.h"
 
 typedef struct RNG_Type RNG_t;
 struct RNG_Type{
@@ -15,5 +15,8 @@ struct RNG_Type{
 #define	RNG_reg	((RNG_t *)0x50060800)
 
 void enableRNG();
+int getRandomNumber();
+void resetSeedError();
+
 
 #endif	//__Rng_H__

@@ -2,16 +2,11 @@
 #include "Rng.h"
 
 int main(){
-	int status;
-	int data;
+	int randomValue;
+//	int data, status;
 
 	enableRNG();
 	while(1){
-		status = RNG_reg->RNG_SR;
-		status &= 1;
-		if(status == 1){
-			data = RNG_reg->RNG_DR;
-		}
-
+		randomValue = getRandomNumber();
 	}
 }
